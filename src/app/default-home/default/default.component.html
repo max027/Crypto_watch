@@ -1,0 +1,78 @@
+<app-navbar/>
+<div class="main">
+    <div class="main-sub">
+        <div class="sub">
+            <div class="sub-left">
+                <h1 class="sub-title">
+                    Buy,Trade and hold crypto
+                </h1>
+                <div class="sub-auth">
+                    <div class="auth">
+                        <div class="auth-main">
+                            <a class="signup"  >Sign up with email or phone</a>
+                            <div class="sep" >
+                                <div class="sep1">
+                                </div>
+                                <div class="septext">or continue with</div>
+                                <div class="sep2"></div>
+                            </div>
+                            <div class="buttons">
+                                <a href="" class="button1">
+                                    <button class="goog">
+                                        <div class="logo">
+                                            <img src="../../../assets/google.png" class="logo1" alt="">
+                                        </div>
+                                        <div class="logo-name">Google</div>
+                                    </button>
+
+                                    <a href="" class="button2">
+                                        <button class="goog">
+                                            <div class="logo">
+                                                <img src="../../../assets/apple.png" class="logo1" alt="">
+                                            </div>
+                                            <div class="logo-name">Apple</div>
+                                        </button>
+
+                                    </a>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+         <!-- <div class="sub-right">
+                <img src="../../../assets/image2.jpg" class="sub-card" alt="image">
+        </div>     -->
+        </div>
+    </div>
+
+
+</div>
+<div class="section">
+    <div class="sub-section">
+        <div class="section-title">
+            <div class="text1">Popular cryptocurrences</div>
+            <a href="" class="text2">View more market</a>
+        </div>
+        <div class="sub-section2">
+            <div class="name">Name</div>
+            <div class="last">Last Price</div>
+            <div class="change">24 Change</div>
+            <div class="market">Market Cap</div>
+        </div>
+
+        <div class="Coin" *ngFor="let coin of Coin|keyvalue">
+            <div class="coin-name">{{coin.value.name}}</div>
+            <div class="coin-price">{{coin.value.last}}</div>
+            <div class="coin-change" [style.color]="+coin.value.change<0?'red':'green'" >{{coin.value.change}}</div>
+            <div class="coin-cap">{{coin.value.cap}}</div>
+
+        </div>
+
+    </div>    
+    
+
+
+
+</div>
