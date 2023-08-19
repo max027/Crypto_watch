@@ -20,5 +20,4 @@ export class DefaultComponent implements OnInit {
   ngOnInit(): void {
    this.getCoin(this.coin_list) 
   }
-
 }

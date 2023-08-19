@@ -1,0 +1,240 @@
+.container{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: rgb(234, 236, 239);
+    background-color: rgb(24, 26, 32);
+}
+.main{
+    box-sizing: border-box;
+    margin: 40px 0px 0px;
+    min-width: 0px;
+    display: flex;
+    overflow: hidden auto;
+    align-items: center;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
+.sub{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.sub2{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    max-width: 1200px;
+    width: 100%;
+}
+/* keep eye */
+.sub-col{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: block;
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+
+}
+.content-box{
+        box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+}
+.content-main{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.content-main-sub{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    width: 100%;
+}
+.text-head{
+    box-sizing: border-box;
+    margin: 0px 0px 12px;
+    min-width: 0px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #eaecef;
+}
+.divide{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-box{
+        box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    padding-top: 12px;
+
+}
+.input1{
+    box-sizing: border-box;
+    margin: 0px 0px 24px;
+    min-width: 0px;
+    width: 100%;
+}
+.label1{
+    box-sizing: border-box;
+    margin: 0px 0px 4px;
+    min-width: 0px;
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    align-items: center;
+    color: rgb(234, 236, 239);
+    cursor: auto;
+}
+.textbox1{
+        box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    position: relative;
+    min-height: 12px;
+}
+.divide1{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+}
+.textbox1-main{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    align-items: center;
+    line-height: 1.6;
+    height: 48px;
+    border: 1px solid #474d57;
+    border-radius: 4px;
+    background-color: transparent;
+    display: flex;
+    flex: 1 1 0%;
+}
+.box1{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 12px 12px;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    opacity: 1;
+    font-size: 16px;
+    color: #eaecef;
+}
+.divide2{
+    box-sizing: border-box;
+    margin: 4px 0px 0px;
+    min-width: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    color: rgb(132, 142, 156);
+}
+.input2{
+    box-sizing: border-box;
+    margin: 0px 0px 24px;
+    min-width: 0px;
+    width: 100%;
+}
+.textbox2{
+        box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: inline-flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: 1.6;
+    height: 48px;
+    border: 1px solid rgb(71, 77, 87);
+    border-radius: 4px;
+    background-color: transparent;
+    width: 100%;
+}
+.box2{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    opacity: 1;
+    padding: 12px 12px;
+    color: rgb(234, 236, 239);
+    font-size: 16px;
+
+}
+.Register{
+    margin: 0px;
+    appearance: none;
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: inherit;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    padding: 12px 24px;
+    line-height: 24px;
+    min-width: 80px;
+    word-break: keep-all;
+    color: rgb(24, 26, 32);
+    border-radius: 4px;
+    min-height: 24px;
+    border: none;
+    background-image: none;
+    background-color: rgb(252, 213, 53);
+    white-space: normal;
+    width: 100%;
+    height: 48px;
+    font-weight: 500;
+}

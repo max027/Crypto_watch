@@ -1,0 +1,52 @@
+.Header-cont{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    background-color: rgb(24, 26, 32);
+    height: 64px;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    user-select: none;
+    align-items: center;
+}
+.headding{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: currentcolor;
+    font-size: 24px;
+    fill: currentcolor;
+    width: 148px;
+    height: 24px;
+    color: rgb(252, 213, 53);
+}
+.head-div{
+        box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    color: rgb(234, 236, 239);
+    overflow: hidden;
+    align-items: center;
+    pointer-events: none;
+    visibility: hidden;
+}
+.head-div2{
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+    min-width: 8px;
+ 
+}
+.head-div3{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    flex: 0 0 auto;
+}

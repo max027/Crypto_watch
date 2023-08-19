@@ -65,7 +65,6 @@
 .signup{
     margin: 0px;
     appearance: none;
-    user-select: none;
     cursor: pointer;
     overflow: hidden;
     text-overflow: ellipsis;
