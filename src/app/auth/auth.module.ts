@@ -9,7 +9,11 @@ const authRoutes:Routes=[
   {
     path:'',
     component:RegisterComponent
-  }
+  },
+  {
+    path:'login',
+    component:LoginComponent
+  },
 ]
 
 export const authRouting=RouterModule.forChild(authRoutes)

@@ -54,3 +54,78 @@
     margin-right: 8px;
     height: 100%;
 }
+.sep{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 8px;
+}
+.wrapper{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.login{
+    margin: 0px;
+    appearance: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: inherit;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    line-height: 20px;
+    word-break: keep-all;
+    border-radius: 4px;
+    min-height: 24px;
+    border: none;
+    background-color: transparent;
+    color: rgb(234, 236, 239);
+    font-weight: 400;
+    padding: 0px;
+    min-width: 0px
+}
+.register{
+    margin: 0px;
+    appearance: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: inherit;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    padding: 6px 12px;
+    line-height: 20px;
+    min-width: 52px;
+    word-break: keep-all;
+    color: rgb(24, 26, 32);
+    border-radius: 4px;
+    min-height: 24px;
+    border: none;
+    background-image: none;
+    background-color: rgb(252, 213, 53);
+    font-weight: 400;
+}
