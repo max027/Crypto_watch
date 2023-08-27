@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "crypto-watch-3e845": {
+      "hosting": {
+        "crypto_watch": [
+          "crypto-watch-3e845"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "crypto-watch-3e845"
+  }
+}

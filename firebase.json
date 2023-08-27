@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "crypto_watch",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
