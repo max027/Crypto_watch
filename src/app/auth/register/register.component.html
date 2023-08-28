@@ -12,14 +12,15 @@
                             <h1 class="text-head">Create Personal Account</h1>
                             <div class="divide"></div>
                             <div class="form-box">
-                            <form action="#" class="form-main" autocomplete="off">
+
+                            <form class="form-main" #registerForm="ngForm" (ngSubmit)="submit(registerForm.value)" autocomplete="off">
                                 
                                 <div class="input1">
                                     <div class="label1">Email/Phone number</div>
                                     <div class="textbox1">
                                         <div class="divide1">
                                             <div class="textbox1-main">
-                                                <input type="text" class="box1" name="username" autocomplete="off" autocapitalize="off">
+                                                <input type="email" class="box1" ngModel name="username" autocomplete="off" autocapitalize="off">
                                             </div>
                                         </div>
                                     </div>
@@ -31,7 +32,7 @@
                                     <div class="label1">Password</div>
                                     <div class="textbox1">
                                         <div class="textbox2">
-                                            <input type="text" class="box2" autocapitalize="off" autocomplete="off">
+                                            <input type="password" class="box2" ngModel name="password" autocapitalize="off" autocomplete="off">
 
                                         </div>
 
@@ -39,8 +40,9 @@
 
                                 </div>
                                 <div class="divide2"></div>
-                                <button class="Register">Register</button>
+                                <button class="Register" type="submit" >Register</button>
                                 
+
                             </form>
                             </div>
                         </div>

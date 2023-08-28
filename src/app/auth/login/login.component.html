@@ -14,16 +14,29 @@
                 </div>
                 <div class="form-cont">
                     <div class="form-sub">
-                        <form action="#" autocomplete="off">
+
+                        <form #loginForm="ngForm" (ngSubmit)="submit(loginForm.value)" autocomplete="off">
                             <div class="textbox1">
                                 <h2 class="label1">Email/phone number</h2>
                                 <div class="input1">
                                     <div class="input-sub">
-                                        <input type="text" name="username" autocomplete="off" autocapitalize="off" class="text-area">
+                                        <input type="email" name="username" ngModel autocomplete="off" autocapitalize="off" class="text-area">
                                     </div>
                                 </div>
                                 <div class="divide1"></div>
                             </div>
+
+                            <div class="textbox1">
+                                <h2 class="label1">Password</h2>
+                                <div class="input1">
+                                    <div class="input-sub">
+                                        <input type="password" name="password" ngModel autocomplete="off" autocapitalize="off" class="text-area">
+                                    </div>
+                                </div>
+                                <div class="divide1"></div>
+                            </div>
+
+
 
                             <button class="btn1">Next</button>
 

@@ -4,6 +4,7 @@ import { RegisterComponent } from './register/register.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NavbarAuthComponent } from './navbar-auth/navbar-auth.component';
 import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 const authRoutes:Routes=[
   {
@@ -22,11 +23,12 @@ export const authRouting=RouterModule.forChild(authRoutes)
   declarations: [
     RegisterComponent,
     NavbarAuthComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     CommonModule,
     authRouting,
+    FormsModule,
   ],
   exports:[RegisterComponent]
 })
