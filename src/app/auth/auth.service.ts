@@ -4,6 +4,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class AuthService {
+Encrypt(id:string){
+
+}
 AuthenticateUser(uid:string){
 sessionStorage.setItem("id",uid)
 

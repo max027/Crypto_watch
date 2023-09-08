@@ -5,6 +5,8 @@
 [x] finish login and signup page
 [x] integrate firebase
 [x] create nav bar specifically for login and signup
-[] make routes protected
+[x] make routes protected
 [] make guest market page
 [] make dashboard
+[] make routing good
+[] make market page
